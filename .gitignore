@@ -1,0 +1,79 @@
+# ---- Build output ----
+build/
+build-*/
+cmake-build-*/
+out/
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+cmake_install.cmake
+CTestTestfile.cmake
+CPackConfig.cmake
+CPackSourceConfig.cmake
+Makefile
+install_manifest.txt
+Testing/
+_deps/
+compile_commands.json
+.cmake/
+
+# ---- Compiled objects / libs / binaries ----
+*.o
+*.obj
+*.lo
+*.slo
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.gch
+*.pch
+
+# ---- Broker runtime data (segments, indexes, offsets) ----
+data/
+*.log
+*.index
+*.timeindex
+*.offsets
+*.snapshot
+
+# ---- Debug / profiling / sanitizer ----
+*.dSYM/
+core
+core.*
+vgcore.*
+callgrind.out.*
+perf.data
+perf.data.old
+*.gcda
+*.gcno
+*.gcov
+coverage/
+*.profraw
+*.profdata
+
+# ---- Knowledge graph cache (code-review-graph MCP) ----
+.code-review-graph/
+
+# ---- Editor / IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cache/
+.ccls-cache/
+.clangd/
+
+# ---- OS junk ----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+
